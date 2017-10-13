@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSObject+Singleton.h"
+#import "Persion.h"
+#import "Person2.h"
 
 @interface ViewController : UIViewController
 
+- (void)changeNum;
 
 @end
 

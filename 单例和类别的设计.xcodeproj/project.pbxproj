@@ -15,6 +15,9 @@
 		FBE27B851F90D6F90029B646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE27B831F90D6F90029B646 /* LaunchScreen.storyboard */; };
 		FBE27B901F90D6F90029B646 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27B8F1F90D6F90029B646 /* ________Tests.m */; };
 		FBE27B9B1F90D6F90029B646 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27B9A1F90D6F90029B646 /* ________UITests.m */; };
+		FBE27BAD1F90D7EA0029B646 /* NSObject+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27BAC1F90D7EA0029B646 /* NSObject+Singleton.m */; };
+		FBE27BB31F90DFBB0029B646 /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27BB21F90DFBB0029B646 /* Persion.m */; };
+		FBE27BB61F90DFDE0029B646 /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27BB51F90DFDE0029B646 /* Person2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		FBE27B961F90D6F90029B646 /* 单例和类别的设计UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单例和类别的设计UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE27B9A1F90D6F90029B646 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		FBE27B9C1F90D6F90029B646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE27BAB1F90D7EA0029B646 /* NSObject+Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Singleton.h"; sourceTree = "<group>"; };
+		FBE27BAC1F90D7EA0029B646 /* NSObject+Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Singleton.m"; sourceTree = "<group>"; };
+		FBE27BB11F90DFBB0029B646 /* Persion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		FBE27BB21F90DFBB0029B646 /* Persion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
+		FBE27BB41F90DFDE0029B646 /* Person2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
+		FBE27BB51F90DFDE0029B646 /* Person2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +114,12 @@
 				FBE27B791F90D6F90029B646 /* AppDelegate.m */,
 				FBE27B7B1F90D6F90029B646 /* ViewController.h */,
 				FBE27B7C1F90D6F90029B646 /* ViewController.m */,
-				FBE27B7E1F90D6F90029B646 /* Main.storyboard */,
-				FBE27B811F90D6F90029B646 /* Assets.xcassets */,
-				FBE27B831F90D6F90029B646 /* LaunchScreen.storyboard */,
-				FBE27B861F90D6F90029B646 /* Info.plist */,
+				FBE27BAB1F90D7EA0029B646 /* NSObject+Singleton.h */,
+				FBE27BAC1F90D7EA0029B646 /* NSObject+Singleton.m */,
+				FBE27BB11F90DFBB0029B646 /* Persion.h */,
+				FBE27BB21F90DFBB0029B646 /* Persion.m */,
+				FBE27BB41F90DFDE0029B646 /* Person2.h */,
+				FBE27BB51F90DFDE0029B646 /* Person2.m */,
 				FBE27B751F90D6F90029B646 /* Supporting Files */,
 			);
 			path = "单例和类别的设计";
@@ -117,6 +128,10 @@
 		FBE27B751F90D6F90029B646 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBE27B7E1F90D6F90029B646 /* Main.storyboard */,
+				FBE27B811F90D6F90029B646 /* Assets.xcassets */,
+				FBE27B831F90D6F90029B646 /* LaunchScreen.storyboard */,
+				FBE27B861F90D6F90029B646 /* Info.plist */,
 				FBE27B761F90D6F90029B646 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -277,6 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE27B7D1F90D6F90029B646 /* ViewController.m in Sources */,
+				FBE27BB31F90DFBB0029B646 /* Persion.m in Sources */,
+				FBE27BAD1F90D7EA0029B646 /* NSObject+Singleton.m in Sources */,
+				FBE27BB61F90DFDE0029B646 /* Person2.m in Sources */,
 				FBE27B7A1F90D6F90029B646 /* AppDelegate.m in Sources */,
 				FBE27B771F90D6F90029B646 /* main.m in Sources */,
 			);
@@ -516,6 +534,7 @@
 				FBE27BA11F90D6F90029B646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBE27BA21F90D6F90029B646 /* Build configuration list for PBXNativeTarget "单例和类别的设计Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +543,7 @@
 				FBE27BA41F90D6F90029B646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBE27BA51F90D6F90029B646 /* Build configuration list for PBXNativeTarget "单例和类别的设计UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +552,7 @@
 				FBE27BA71F90D6F90029B646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
